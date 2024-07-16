@@ -1,0 +1,227 @@
+/* ! Common shared style */
+body{
+    font-family: 'Open Sans', sans-serif;
+    /* box-sizing: border-box; */
+}
+.text-primary{
+    color: #FD6E0A;;
+}
+.btn-primary{
+    border-radius: 5px;
+    background: #FD6E0A;
+    border: 0;
+    color: #FFF;
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 700;
+    padding: 18px 36px;
+}
+
+.section-title{
+    color:#181818;
+    text-align: center;
+    font-size: 35px;
+    font-weight: 700;
+}
+.section-description{
+        color: #757575;
+        text-align: center;
+        font-size: 18px;
+
+}
+/* ! Nav realted Sytle */
+nav{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin: 0 auto;
+    /* important width */
+    width: 1200px;
+}
+.nav-title{
+    color: #181818;
+    font-size: 45px;
+    font-weight: 800;
+
+}
+
+nav > ul {
+    display: flex;
+    align-items: center;
+}
+
+nav li{
+    list-style: none;
+    margin-left: 50px;
+    
+}
+nav a{
+    text-decoration: none;
+    color: #474747;
+}
+
+/* ! Header related style */
+.header{
+    background: #FFF8F3;
+    /* background-color: green; */
+    background-image: url(/images/header_bg.png), url(../images/developer.png);
+    background-repeat: no-repeat;
+    background-position: bottom right, top left;
+}
+.banner{
+    padding: 30px 30px 0px 150px;
+    /* background-color: green; */
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+
+}
+.banner.banner-content{
+    max-width: 500px;
+}
+.banner .profile-pic{
+    width: 584px;
+    height: 676px;
+}
+
+.banner-greeting{
+    font-size: 45px;
+    color: #474747;
+    margin-bottom: 0;
+}
+.banner-title{
+    font-size: 85px;
+    /*  weight na dileo to kaz kore dekhi */
+    font-weight: 700;
+    color: #181818;
+    margin-top: 5px;
+    margin-bottom: 0px;
+}
+.banner-description{
+    margin-top: 20px;
+}
+
+/* ! main section style ************ */
+main{
+    max-width: 1140px;
+    margin: 0 auto;
+}
+ main section{
+    margin-top: 130px;
+ }
+/* ! about section style */
+.about{
+    padding: 131px;
+    border-radius: 10px;
+    background: #FFF8F3;
+    /* background-color: green; */
+    margin: 130px 0;
+    
+}
+
+.about-info-container{
+    display: flex;
+    justify-content: space-around;
+}
+
+.about-info{
+    text-align: center;
+}
+
+/* div h4{
+    color:#757575;
+    font-size: 20px;
+    font-weight: 400;
+    margin-bottom: 0;
+}
+div p{
+margin-top: 0px;
+    color:#474747;
+font-weight: 700;
+} */
+/* ! Skill related styles ************************ */
+#what-i-do-descripton{
+    padding: 30px 150px;
+}
+
+.skills-container{
+    display: flex;
+    gap: 24px;
+}
+.skill{
+    padding: 30px;
+
+    border-radius: 5px;
+    background: #FFF;
+    box-shadow: 0px 6px 50px 0px rgba(0, 0, 0, 0.06);
+}
+.skill-description{
+    color: #757575;
+} 
+
+/* ! Resume Section Styles */
+.resume-column-title{
+    color: #474747;
+    font-size: 30px;
+    font-weight: 700;
+    margin-bottom: 10px;
+}
+
+
+.resume-container{
+    display: flex;
+    gap: 50px;
+}
+
+.resume-item-institute{
+    margin-top: 0px;
+    margin-bottom: 20px;
+}
+
+.resume-item-institute, .resume-item-description{
+    color: #757575;
+
+}
+
+.resume-container hr{
+    
+    margin: 24px 0px;
+}
+
+.download-cv{
+    margin-top: 50px;
+    text-align: center;
+}
+
+/* ! Footer style  */
+footer{
+    margin-top: 100px;
+    display: flex;
+    gap: 117px;
+    background: #FFF8F3;
+    padding: 130px 200px;
+}
+
+.footer-column{
+    width: 50%;
+}
+
+.social-links a{
+    margin-top: 30px;
+    margin-right: 24px;
+
+}
+
+.contact input[type="text"], .contact input[type="email"], textarea{
+    display: block;
+    margin-bottom: 24px;
+    padding: 18px 35px;
+    color: #757575;
+
+    border-radius: 5px;
+    background-color: #FFF;
+    border: 0;
+
+    width: 100%;
+
+}
